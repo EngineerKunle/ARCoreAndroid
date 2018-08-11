@@ -21,17 +21,10 @@ class PointerDrawable : Drawable() {
         }
     }
 
-    override fun setAlpha(alpha: Int) {
-
-    }
-
     override fun getOpacity(): Int {
         return PixelFormat.OPAQUE
     }
 
-    override fun setColorFilter(colorFilter: ColorFilter?) {
-
-    }
-
-
+    override fun setAlpha(alpha: Int) {}
+    override fun setColorFilter(colorFilter: ColorFilter?) {}
 }
