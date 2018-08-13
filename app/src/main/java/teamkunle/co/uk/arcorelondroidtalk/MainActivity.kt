@@ -17,10 +17,19 @@ class MainActivity : AppCompatActivity() {
         start_ar_experience.setOnClickListener{
             startARActivity()
         }
+
+        start_avengers_experience.setOnClickListener {
+            startAvengers()
+        }
     }
 
     private fun startARActivity() {
         val intent = Intent(this, ARActivity::class.java)
+        startActivity(intent)
+    }
+
+    private fun startAvengers() {
+        val intent = Intent(this, AvengersAR::class.java)
         startActivity(intent)
     }
 }
