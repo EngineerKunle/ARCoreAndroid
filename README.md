@@ -1,7 +1,7 @@
 # ARCoreAndroid
 ARCore SceneForm example for Londroid
 
-This is a playground app for my talk on Londroid Augmented Reality. 
+This is a playground app for my talk on Londroid Augmented Reality. 15th August 2018 at The Telegraph
 
 Please feel free to use it as a starter point. 
 
